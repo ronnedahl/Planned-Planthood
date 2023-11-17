@@ -76,13 +76,7 @@ nav ul {
     margin: 0;
     width: 100%;
     justify-content: space-around;
-}
-    
-    
-
-    
-    
-
+}  
 
 nav li {
     margin: 0;
@@ -90,10 +84,7 @@ nav li {
     font-family: 'Maven Pro', sans-serif;
     font-size: 20px;
     font-weight: 700;
-    
-   
-    
-    
+
     
 }
 
@@ -102,17 +93,24 @@ nav a {
     color: rgba(5, 86, 71, 1)
     
 }
+
+/* --- MAIN --- */
+
 h1 {
     font-size: 48px;
     color: #0A846E;
     text-align: center;
     margin-top: 2.5rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+/* FIRST SECTION */
 }
 .section-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .left-section {
     display: flex;
@@ -152,3 +150,63 @@ h1 {
     align-self: flex-end;
 }
 
+.cta-button:hover {
+    cursor: pointer;
+    background-color: #0A846E;
+    opacity: 0.8;
+}
+
+.cta-button:active {
+    cursor: pointer;
+    background-color: #0A846E;
+    opacity: 0.6;
+}
+
+
+/* THIRD SECTION */
+
+.section-box1 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3rem;
+
+}
+
+.left-section1 {
+    display: flex;
+    width: 377px;
+    height: 377px;
+    border-radius: 50%;
+    background-color: #0A846E;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-section1 {
+    flex: 1;
+}
+
+.cta-button1 {
+    font-size: 24px;
+    color: white;
+    background-color: #0A846E;
+    border: none;
+    border-radius: 9px;
+    width: 281px;
+    height: 63px;
+    margin-top: 2rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: flex-end;
+}
+
+.cta-button1:hover {
+    cursor: pointer;
+    background-color: #0A846E;
+    opacity: 0.8;
+}
+
+.cta-button1:active {
+    cursor: pointer;
+    background-color: #0A846E;
+    opacity: 0.6;
+}
