@@ -176,6 +176,7 @@ h1 {
     margin: 0px 100px 0px 100px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
     gap: 2px;
     
 }
