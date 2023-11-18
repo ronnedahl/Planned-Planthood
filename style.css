@@ -166,7 +166,7 @@ h1 {
     margin:10px;
 }
 
-img{  /* SÄTT KLASS PÅ DENNA DEN PÅVERKAR ALLA ELEMENTE!!! */
+.grid-img{  /* SÄTT KLASS PÅ DENNA DEN PÅVERKAR ALLA ELEMENTE!!! */
 
     width:293.54px;
     height: 296px;
