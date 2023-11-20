@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 :root {
     --background-green: #0a846e;
@@ -15,19 +19,22 @@
 body {
     font-family: 'Maven Pro', sans-serif;
 }
-
+h1 {
+    font-size: 48px;
+    color: #0A846E;
+    text-align: center;
+    margin-top: 2.5rem;
+    font-weight: 500;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
 .wrapper {
     width: 1000px;
     margin: 0 auto;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-
-/* fonts 
-    font-family: Inter
-    font-family: Open sans 
-    font-family: Lato 
-*/
-    
-
 /* Hero-sektionen */
 .hero {
     display: grid;
@@ -104,19 +111,13 @@ nav li {
     padding: 0;
     font-family: 'Maven Pro', sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 nav a {
     text-decoration: none;
     color: rgba(5, 86, 71, 1)
     
-}
-h1 {
-    font-size: 48px;
-    color: #0A846E;
-    text-align: center;
-    margin-top: 2.5rem;
 }
 .section-box {
     display: flex;
@@ -148,7 +149,7 @@ h1 {
     margin-bottom: 1rem;
 }
 .right-section p {
-    line-height: 1.3rem;;
+    line-height: 1.3rem;
 }
 .right-section .cta-button {
     font-size: 24px;
@@ -156,11 +157,13 @@ h1 {
     background: var(--background-green);
     border: none;
     border-radius: 9px;
+    font-family: Open Sans;
     width: 179px;
     height: 63px;
     margin-top: 2rem;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     align-self: flex-end;
+    font-weight: 700;
 }
 
 /* Bild Galleri Grid */
@@ -175,10 +178,12 @@ h1 {
     
     
 }
-.gallery-container{
+.gallery-container {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 3rem;
+    margin: 0px 35px 0px 35px;
+    column-gap: 25px;
+    row-gap: 40px;
 }
 
 .card-gallery{
@@ -250,6 +255,7 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    font-family: Open Sans;
 }
 
 .card-button {
@@ -282,66 +288,93 @@ color: #FFF;
 border: none;
 }
 
+.button3 {
+    width: 157px;
+    height: 63px;
+    grid-column-start: 2;
+    justify-self: center;
+  
+    background: var(--background-green);
+    font-size: 24px;
+  }
+
 /* Eriks CSS kod */
 
-.section-box2 {
-  display: flex;
-  justify-content: space-between;
-}
+.container-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 93px;
+    margin-top: 65px;
+  }
+  
+  .left-container {
+    /* Layout */
+    width: 377px;
+    height: 377px;
+  
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+  
+    /* Style */
+    border-radius: 239px;
+    border: 14px solid #0A846E;
+    background: #0A846E;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .right-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 67px;
+  }
 
-.left-section2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 467px;
-}
-.caption h2 {
-  color: #1E1E1E;
-  font-family: Open Sans;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin: 0;
-}
+  .header-text {
+    margin-bottom: 1rem;
+  }
+  
+  .body-text {
+    margin-top: 0;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3rem;
+  }
+  
+  .button4 {
+    /* Layout */
+    width: 281px;
+    height: 63px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+  
+    /* Style */
+    border-radius: 9px;
+    border: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    background: var(--background-green);
+  
+    /* Typography */
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
 
-.body-text p{
-  color: #000;
-  font-family: Open Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin: 19px 0px 19px 0px;
-}
-.cta-button2 {
-  /* Layout */
-  width: 281px;
-  height: 63px;
-  border-radius: 8px;
-  background: #0A846E;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border: none;
+  button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
 
-  /* Färg och font */
-  color: #FFF;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.right-section2 {
-  flex-shrink: 0;
-  width: 377px;
-  height: 377px;
-  background-color: #0A846E;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  button:active {
+    opacity: 0.6;
+  }
 
 /* FOOTER */
 footer {
