@@ -166,12 +166,20 @@ nav a {
     font-weight: 700;
 }
 
+hr {
+    width: 303.236px;
+    margin: auto;
+    stroke-width: 3px;
+    stroke: #055647;
+}
+
 /* Bild Galleri Grid */
 
 
 
 .grid-headline {
     text-align: center;
+    font-family: 'Lato', sans-serif;
     margin: 3rem;
     font-size: 32px;
     font-weight: 600;
@@ -289,10 +297,13 @@ border: none;
 }
 
 .button3 {
+    color: white;
     width: 157px;
     height: 63px;
     grid-column-start: 2;
     justify-self: center;
+    border: none;
+    border-radius: 9px;
   
     background: var(--background-green);
     font-size: 24px;
@@ -480,7 +491,6 @@ footer {
     background-position: center;
     margin: auto;
     position: relative;
-    margin-top: 12rem;
 }
 
 footer::before {
@@ -514,8 +524,11 @@ footer::before {
     display: flex;
     
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+
     width: 50%;
     bottom: 0;
     left: 0;
@@ -538,14 +551,15 @@ height: 35px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 35%;
+    width: 40%;
+    
 }
 
 .number {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 35%;
+    width: 40%;
 
 }
 
