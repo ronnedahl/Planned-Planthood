@@ -1,0 +1,53 @@
+# General
+.DS_Store
+Thumbs.db
+
+# macOS
+*.DS_Store
+
+# Windows
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+Thumbs.db
+
+# Linux
+lost+found/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Compiled files
+*.log
+*.logs
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+*.exe
+*.dll
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+*.sqlite3
+*.obj
+*.o
+*.out
+*.app
+*.apk
+*.ipa
+
+# Dependency directories
+node_modules/
+bower_components/
